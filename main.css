@@ -1,0 +1,50 @@
+body {
+	font-family: Arial;
+	font-size: 11pt;
+}
+
+button {
+	border: none;
+}
+
+#main {
+	background-color: #e0e0e0;
+	border: 1px solid #ccc;
+	width: 250px;
+	padding: 10px;
+}
+
+#converter #selConversion {
+	width: 100%;
+}
+
+#controls {
+	width: 75%;
+	height: 75%;
+	padding: 5px;
+}
+
+#controls #converterInput {
+	width: 100%;
+	text-align: right;
+	font-weight: bold;
+}
+
+#controls button {
+	width: 50px;
+	height: 40px;
+	border-top: 2px solid transparent;
+	border-left: 2px solid transparent;
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	background-color: #fff;
+	margin: 3px;
+}
+
+#controls button:active {
+	border-right: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	border-top: 2px solid #ccc;
+	border-left: 2px solid #ccc;
+	background-color: #fefefe;
+}

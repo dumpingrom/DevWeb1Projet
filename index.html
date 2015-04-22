@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Romain Bevillard - Dev Web 1 Project</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div id="main">
+		<form id="converter" name="converter" calc-done="false">			
+			<select id="selConversion" name="conversionType">
+				<option value="kmMile">
+					km -> mile
+				</option>
+				<option value="mileKm">
+					mile -> km
+				</option>
+				<option value="celsFahr">
+					Celsius -> Fahrenheit
+				</option>
+				<option value="fahrCels">
+					Fahrenheit -> Celsius
+				</option>
+			</select>
+			<div id="controls">
+				<input type="text" id="converterInput" name="converterInput">
+				<button type="button" id="seven">7</button>
+				<button type="button" id="eight">8</button>
+				<button type="button" id="nine">9</button>
+				<button type="button" id="four">4</button>
+				<button type="button" id="five">5</button>
+				<button type="button" id="six">6</button>
+				<button type="button" id="one">1</button>
+				<button type="button" id="two">2</button>
+				<button type="button" id="three">3</button>
+				<button type="button" id="zero">0</button>
+				<button type="button" id="point">.</button>
+				<button type="button" id="equals">=</button>
+			</div>
+		</form>
+		<span id="spanResult"></span>
+	</div>
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="convertisseur.js"></script>
+</body>
+</html>
